@@ -18,6 +18,9 @@ body {
     background: #F5F6F7;
     width:100%;
     min-width: 960px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
     
 .page_top {
@@ -151,7 +154,7 @@ body {
 .own_share {
     margin: 120px 0;
     width: 100%;
-    height: auto;
+    height: ;
 }
 
 .share_tit {
@@ -161,9 +164,127 @@ body {
     margin: 0 0 60px;
     font-weight: bold;
     font-size: 20px;
-    margin-top: 120px;
+    margin-top: 460px;
 }
 
+.own_share ul {
+    
+}
 
+.own_share a:hover{
+    cursor: pointer;
+}
 
+.own_share li {
+    width: 313px;
+    margin: 0 auto;
+    background: white;
+    padding: 0 auto;
+    float: left;
+    border-radius: 8px;
+}
 
+.own_share li h4 {
+    font:16px;
+    width: 280px;
+    line-height: 24px;
+    padding: 16px 0 0 16px;
+    font-weight: bold;
+}
+
+.own_share li span {
+    width: 100%;
+    height: 20px;
+    margin: 16px 0 0;
+}
+
+.own_share li b {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #8E9194;
+    float: left;
+    padding: 0 0 16px 16px;
+}
+
+.own_share li i {
+    font-style: normal;
+    float: right;
+    line-height: 20px;
+    color: #C5C8CC;
+    padding: 0 16px 0 30px;
+    background: url(../img/eye.png) left center no-repeat;
+}
+
+.page_footer {
+    width: 100%;
+    background: #2E2E2E;
+    height: 300px;
+    flex: 1;
+}
+
+.site_info {
+    background: #2E2E2E;
+    width: 960px;
+    margin: 0 auto;
+    padding: 60px 0;
+    height: 140px;
+}
+
+.site_intro {
+    width: 280px;
+    height: 140px;
+    float: left;
+}    
+     
+.sit_top {
+    height: 36px;
+    width: 100%; 
+    padding-left: 50px;
+    background: url(../img/logo.png) left no-repeat;
+    color: white;
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: bold;
+}
+
+.sit_description {
+    height: auto;
+    width: 100%;
+    line-height:24px;
+    font-size: 12px;
+    color: #B8B8B8;
+    margin: 16px 0 0;
+}
+
+.site_map {
+    height: 140px;
+    float:right;
+    width: 640px;
+}
+
+.map_list {
+    height: 140px;
+    width: 160px;
+    float: right;
+}
+
+.map_list span {
+    width: 100%;
+    color: white;
+    line-height: 22px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.map_list a {
+    color: #D6D6D6;
+    font-size: 12px;
+    line-height: 20px;
+    width: 100%;
+    height: 20px;
+    margin-bottom: 10px;
+    text-align: left;
+}
